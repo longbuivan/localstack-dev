@@ -9,17 +9,10 @@ terraform {
         version = "~> 3.38.0"
         source  = "hashicorp/aws"
       }
-      # alks = {
-      #   source = "Cox-Automotive/alks"
-      #   version = "~> 1.5.15"
-      # }
 
     }
 }
 
-# provider "alks" {
-#   url = "https://alks.coxautoinc.com/rest"
-# }
 
 provider "aws" {
   region                      = "ap-southeast-2"
